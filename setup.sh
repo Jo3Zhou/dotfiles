@@ -17,7 +17,7 @@ link_item() {
 	local item_source_path=$source_directory/$item_name
 	local item_target_path=$target_directory/$item_name
 	# Check if the item exists
-	if [ -e "$item_name" ]; then
+	if [ -e "$item_source_path" ]; then
 		# Create symbolic link
 		ln -s $item_source_path $item_target_path
 		# Check if linking was successful
@@ -33,3 +33,5 @@ link_item() {
 
 # Inset item below to link
 link_item "nvim"
+link_item "neofetch"
+link_item "kitty"
