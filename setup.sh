@@ -35,3 +35,4 @@ link_item() {
 link_item "nvim"
 link_item "neofetch"
 link_item "kitty"
+link_item ".alias"
