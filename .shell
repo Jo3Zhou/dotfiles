@@ -1,0 +1,26 @@
+# ~/.shell
+
+# Env setup
+# export PATH=$PATH:$HOME/.cargo/bin
+export EDITOR=nvim
+export XDG_CONFIG_HOME="$HOME/.config"
+
+# Alias setup
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias ln='ln -iv'
+alias mkdir='mkdir -v'
+
+alias v='nvim'
+alias g='git'
+alias cs='cowsay'
+alias nf='neofetch'
+
+# Bookmarks
+alias work='cd ~/work && ls -lA'
+alias dl='cd ~/Downloads/ && ls -lA'
+
+# Typos
+alias :q='exit'
+alias help='man'
+alias quit='exit'

@@ -1,0 +1,60 @@
+# ~/.config/starship.toml
+
+[username]
+style_user = 'green bold'
+style_root = 'red bold'
+format = '[$user]($style) '
+show_always = true
+disabled = false
+
+[hostname]
+ssh_only = false
+format = "on [$hostname]($style) "
+trim_at = "-"
+style = "bold dimmed white"
+disabled = false
+
+[directory]
+truncation_length = 8
+truncation_symbol = '…/'
+
+[git_branch]
+symbol = " "
+
+[character]
+format = '$symbol '
+success_symbol = '[❯](bold green)'
+error_symbol = '[❯](bold red)'
+disabled = false
+
+[cmake]
+format = 'via [$symbol($version )]($style)'
+symbol = '△ '
+style = 'bold blue'
+disabled = true
+detect_extensions = []
+detect_files = ['CMakeLists.txt', 'CMakeCache.txt']
+detect_folders = []
+
+[cmd_duration]
+min_time = 2000
+format = '\([$duration]($style)\) '
+style = 'yellow bold'
+show_milliseconds = true
+disabled = false
+show_notifications = false
+min_time_to_notify = 45000
+
+
+[memory_usage]
+symbol = " "
+
+[python]
+symbol = " "
+#pyenv_version_name = true
+format = 'via [${symbol}python (${version} )(\($virtualenv\) )]($style)'
+style = "bold yellow"
+pyenv_prefix = "venv "
+python_binary = ["./venv/bin/python", "python", "python3", "python2"]
+detect_extensions = ["py"]
+version_format = "v${raw}"
