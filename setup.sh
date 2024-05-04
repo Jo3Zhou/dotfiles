@@ -49,4 +49,4 @@ link_item() {
 link_item "nvim"
 link_item "neofetch"
 link_item "kitty"
-link_item "123"
+link_item "starship.toml"
