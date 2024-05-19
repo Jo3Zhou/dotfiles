@@ -107,5 +107,6 @@ alias quit='exit'
 
 # Shell integrations
 eval "$(dircolors -b $HOME/.dircolors)" > /dev/null
-eval "$(starship init zsh)"
+# TODO retire starship for zsh since using zinit?
+# eval "$(starship init zsh)"
 eval "$(fzf --zsh)"
