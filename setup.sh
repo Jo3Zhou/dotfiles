@@ -85,6 +85,8 @@ link_xdg_config() {
 
 # Insert home config below to link
 link_home_config "dircolors" ".dircolors"
+# TODO I am tired of config bash and zsh at the same time?
+# Maybe completely go for zsh?
 link_home_config "shell" ".shell"
 link_home_config "zshrc" ".zshrc"
 link_home_config "bashrc" ".bashrc"
