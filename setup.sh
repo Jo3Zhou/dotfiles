@@ -83,9 +83,12 @@ link_xdg_config() {
 	fi
 }
 
+# TODO: Maybe retire this shell scirpt by GNU stow?
+
 # Insert home config below to link
+# TODO: This is no needed since zinit will use pure theme
 link_home_config "dircolors" ".dircolors"
-# TODO I am tired of config bash and zsh at the same time?
+# TODO: I am tired of config bash and zsh at the same time?
 # Maybe completely go for zsh?
 link_home_config "shell" ".shell"
 link_home_config "zshrc" ".zshrc"
