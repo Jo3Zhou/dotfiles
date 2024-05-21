@@ -85,6 +85,9 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+# Kitty display image in the terminal
+alias icat='kitten icat'
+
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias ln='ln -iv'
