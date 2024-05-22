@@ -6,3 +6,6 @@ local map = vim.keymap
 map.del("n", "<leader>gg")
 map.del("n", "<leader>gG")
 map.del("n", "<leader>gf")
+
+-- Undotree
+vim.keymap.set("n", "<leader><F5>", vim.cmd.UndotreeToggle, { desc = "Toggle Undotree" })
