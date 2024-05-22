@@ -1,7 +1,7 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.codeium",
     "lazyvim.plugins.extras.dap.core",
+    "lazyvim.plugins.extras.coding.codeium",
     "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.clangd",
     "lazyvim.plugins.extras.lang.cmake",
@@ -11,7 +11,7 @@
     "lazyvim.plugins.extras.vscode"
   ],
   "news": {
-    "NEWS.md": "3314"
+    "NEWS.md": "4964"
   },
-  "version": 3
+  "version": 4
 }
