@@ -101,6 +101,7 @@ alias nf='neofetch'
 
 # Bookmarks
 alias work='cd ~/work && ls -lA'
+alias dotfiles='cd ~/dotfiles && ls -lA'
 alias dl='cd ~/Downloads/ && ls -lA'
 
 # Typos
