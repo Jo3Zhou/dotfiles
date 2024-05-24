@@ -98,6 +98,7 @@ alias v='nvim'
 alias g='git'
 alias cs='cowsay'
 alias nf='neofetch'
+alias ff='fastfetch'
 
 # Bookmarks
 alias work='cd ~/work && ls -lA'
