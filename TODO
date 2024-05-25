@@ -1,3 +1,5 @@
-a alias file for both zsh and bash
 ranger config
+pacman -Qqet > pkglist.txt
+pacman -S --needed - < pkglist.txt
+
 
