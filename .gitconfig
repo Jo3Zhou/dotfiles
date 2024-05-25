@@ -1,0 +1,9 @@
+[alias]
+	lol = log --oneline --graph --all
+[core]
+	editor = nvim
+[user]
+	name = Jialu Zhou
+	email = jialu.zhou@viperinnovations.com
+[color]
+    ui = auto

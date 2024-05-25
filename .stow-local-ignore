@@ -1,0 +1,7 @@
+# Stow ignore files
+TODO
+setup.sh
+README.md
+shell
+.editorconfig
+.git
