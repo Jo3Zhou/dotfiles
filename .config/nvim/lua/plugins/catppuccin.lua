@@ -39,10 +39,4 @@ return {
 			which_key = true,
 		},
 	},
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "catppuccin",
-		},
-	},
 }
