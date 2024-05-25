@@ -88,6 +88,9 @@ alias egrep='egrep --color=auto'
 # Kitty display image in the terminal
 alias icat='kitten icat'
 
+# FZF related
+alias fzf='fzf --preview 'cat={}''
+
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias ln='ln -iv'
