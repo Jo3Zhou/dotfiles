@@ -1,5 +1,12 @@
 # Stow ignore files
 TODO
-README.md
+
 .editorconfig
-.git
+
+\.git
+\.gitignore
+\.gitmodules
+
+^/README.*
+^/LICENSE.*
+^/COPYING
