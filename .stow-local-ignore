@@ -1,6 +1,8 @@
 # Stow ignore files
 TODO
 
+avatar.jpg
+
 .editorconfig
 
 \.git
