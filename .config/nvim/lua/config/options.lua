@@ -5,6 +5,9 @@
 vim.opt.spelllang = "en_gb"
 vim.opt.spell = true
 
+-- Text width
+vim.opt.textwidth = 80
+
 -- Neovide options
 if vim.g.neovide then
 	-- Put anything you want to happen only in Neovide here
