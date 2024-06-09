@@ -75,6 +75,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # export PATH=$PATH:$HOME/.cargo/bin
 export EDITOR=nvim
 export XDG_CONFIG_HOME="$HOME/.config"
+export PATH="$PATH:$HOME/.cargo/bin"
 
 # Alias setup
 alias ls='ls --color=auto'
