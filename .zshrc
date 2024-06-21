@@ -98,6 +98,7 @@ alias ln='ln -iv'
 alias mkdir='mkdir -v'
 
 alias ra='ranger'
+alias lg='ranger'
 alias v='nvim'
 alias g='git'
 alias cs='cowsay'

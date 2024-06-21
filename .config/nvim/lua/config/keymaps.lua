@@ -5,6 +5,6 @@
 local map = vim.keymap
 
 -- Disable lazy git...
-map.del("n", "<leader>gg")
-map.del("n", "<leader>gG")
-map.del("n", "<leader>gf")
+-- map.del("n", "<leader>gg")
+-- map.del("n", "<leader>gG")
+-- map.del("n", "<leader>gf")
