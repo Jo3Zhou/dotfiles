@@ -9,6 +9,8 @@ vim.opt.spell = true
 vim.opt.textwidth = 80
 
 -- Neovide options
+vim.o.guifont = "0xProto Nerd Font:h14"
+
 if vim.g.neovide then
 	-- Put anything you want to happen only in Neovide here
 	vim.g.neovide_cursor_vfx_mode = "pixiedust"
