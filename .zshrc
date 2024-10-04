@@ -76,6 +76,7 @@ export EDITOR=nvim
 export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:/snap/bin"
+export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:$PKG_CONFIG_PATH
 
 # Alias setup
 alias ls='ls --color=auto'
