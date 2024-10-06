@@ -1,1 +1,1 @@
-return { "rose-pine/neovim", name = "rose-pine" }
+return { "rose-pine/neovim", priority = 10000, name = "rose-pine" }
