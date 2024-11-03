@@ -1,3 +1,19 @@
-sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-configtool
+# Dotfiles Repository
 
-chsh -s /usr/bin/zsh
+This repository contains my personal dotfiles, which are managed using [GNU Stow](https://www.gnu.org/software/stow/). The configurations are tailored for my development environment, featuring a collection of tools that enhance productivity and streamline my workflow.
+
+## Installation
+
+```bash
+cd $XDG_HOME_DIRECTORY
+git clone https://github.com/Jo3Zhou/dotfiles
+cd dotfiles
+stow -S .
+```
+
+## Uninstall
+
+```bash
+cd dotfiles
+stow -D
+```
