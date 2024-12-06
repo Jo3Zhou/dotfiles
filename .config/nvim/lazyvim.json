@@ -1,7 +1,7 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.copilot",
-    "lazyvim.plugins.extras.coding.copilot-chat",
+    "lazyvim.plugins.extras.ai.copilot",
+    "lazyvim.plugins.extras.ai.copilot-chat",
     "lazyvim.plugins.extras.coding.luasnip",
     "lazyvim.plugins.extras.dap.core",
     "lazyvim.plugins.extras.dap.nlua",
@@ -13,13 +13,14 @@
     "lazyvim.plugins.extras.lang.docker",
     "lazyvim.plugins.extras.lang.json",
     "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.python",
     "lazyvim.plugins.extras.lang.rust",
     "lazyvim.plugins.extras.lang.toml",
     "lazyvim.plugins.extras.util.project",
     "lazyvim.plugins.extras.util.startuptime"
   ],
   "news": {
-    "NEWS.md": "6520"
+    "NEWS.md": "7429"
   },
-  "version": 6
+  "version": 7
 }

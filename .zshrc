@@ -79,8 +79,7 @@ export PATH="$PATH:/snap/bin"
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:$PKG_CONFIG_PATH
 
 # Alias setup
-alias ls='ls --color=auto'
-alias ls='ls --color=auto'
+alias ls='lsd --color=auto'
 #alias dir='dir --color=auto'
 #alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
