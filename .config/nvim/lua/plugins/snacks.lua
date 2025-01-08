@@ -1,16 +1,27 @@
 return {
 	"snacks.nvim",
 	opts = {
+
+		indent = { enabled = true },
+		input = { enabled = true },
+		notifier = { enabled = true },
+		scope = { enabled = true },
+		scroll = { enabled = true },
+		statuscolumn = { enabled = false }, -- we set this in options.lua
+		toggle = { map = LazyVim.safe_keymap_set },
+		words = { enabled = true },
+
 		dashboard = {
 			preset = {
 				header = [[
-██╗  ██╗██╗         ██╗██╗ █████╗ ██╗     ██╗   ██╗██╗
-██║  ██║██║         ██║██║██╔══██╗██║     ██║   ██║██║
-███████║██║         ██║██║███████║██║     ██║   ██║██║
-██╔══██║██║    ██   ██║██║██╔══██║██║     ██║   ██║╚═╝
-██║  ██║██║    ╚█████╔╝██║██║  ██║███████╗╚██████╔╝██╗
-╚═╝  ╚═╝╚═╝     ╚════╝ ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝
- ]],
+					██╗  ██╗██╗         ██╗██╗ █████╗ ██╗     ██╗   ██╗██╗
+					██║  ██║██║         ██║██║██╔══██╗██║     ██║   ██║██║
+					███████║██║         ██║██║███████║██║     ██║   ██║██║
+					██╔══██║██║    ██   ██║██║██╔══██║██║     ██║   ██║╚═╝
+					██║  ██║██║    ╚█████╔╝██║██║  ██║███████╗╚██████╔╝██╗
+					╚═╝  ╚═╝╚═╝     ╚════╝ ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝
+					]],
+
         -- stylua: ignore
         ---@type snacks.dashboard.Item[]
         keys = {
@@ -25,6 +36,16 @@ return {
           { icon = " ", key = "q", desc = "Quit", action = ":qa" },
         },
 			},
+		},
+	},
+
+	keys = {
+		{
+			"<leader>n",
+			function()
+				Snacks.notifier.show_history()
+			end,
+			desc = "Notification History",
 		},
 	},
 }
