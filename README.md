@@ -5,6 +5,11 @@ This repository contains my personal dotfiles, which are managed using [GNU Stow
 ## Installation
 
 ```bash
+sudo pacman -S --noconfirm $(cat packages.txt)
+yay -S --noconfirm $(cat packages.txt)
+```
+
+```bash
 cd $XDG_HOME_DIRECTORY
 git clone https://github.com/Jo3Zhou/dotfiles
 cd dotfiles
@@ -16,4 +21,11 @@ stow -S .
 ```bash
 cd dotfiles
 stow -D
+```
+
+# Update packages.txt
+
+```bash
+pacman -Qqe > packages.txt
+yay -Qm > yay_packages.txt
 ```
