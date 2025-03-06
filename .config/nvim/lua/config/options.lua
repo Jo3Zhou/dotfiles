@@ -7,3 +7,6 @@ vim.opt.spell = true
 
 -- Text width
 vim.opt.textwidth = 80
+
+-- Disable animations
+vim.g.snacks_animate = false
