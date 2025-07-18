@@ -1,267 +1,554 @@
-acpi
-acpid
-adobe-source-han-sans-cn-fonts
-adobe-source-han-sans-jp-fonts
-adobe-source-han-sans-kr-fonts
-adobe-source-sans-fonts
-alsa-firmware
-alsa-utils
-ark
-audiocd-kio
-avahi
-b43-fwcutter
-base
-base-devel
-bat
-bluedevil
-breeze-gtk
-breeze5
-btrfs-progs
-bustle
-bzip2
-cmake
-coreutils
-cpupower
-cronie
-cryptsetup
-cursor-bin
-d-spy
-device-mapper
-diffutils
-dmidecode
-dmraid
-dnsmasq
-dolphin
-dolphin-plugins
-dosfstools
-e2fsprogs
-ecryptfs-utils
-efibootmgr
-elisa
-exfatprogs
-f2fs-tools
-ffmpeg
-ffmpegthumbs
-filelight
-firefox
-freeoffice
-fwupd
-fzf
-ghostty
-glib2-devel
-glibc-locales
-gnome-themes-extra
-google-chrome
-grub
-grub-btrfs
-grub-theme-manjaro
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gtk3
-gtk4
-gwenview
-htop
-i3-wm
-i3blocks
-i3lock
-i3status
-inetutils
-intel-ucode
-inxi
-jfsutils
-kaccounts-providers
-kamera
-kate
-kcalc
-kde-gtk-config
-kdeconnect
-kdegraphics-thumbnailers
-kdenetwork-filesharing
-kdeplasma-addons
-keditbookmarks
-kfind
-kgamma
-khelpcenter
-kimageformats
-kinfocenter
-kio-extras
-kitty
-kmenuedit
-konsole
-kscreen
-kscreenlocker
-ksshaskpass
-ksystemlog
-kwallet-pam
-kwalletmanager
-kwayland-integration
-kwin
-kwrited
-less
-lib32-libcanberra
-lib32-libva-intel-driver
-lib32-mesa-utils
-libadwaita
-libcanberra
-libdvdcss
-libmodbus
-libpamac-flatpak-plugin
-libva-intel-driver
-logrotate
-lsd
-lvm2
-man-db
-man-pages
-manjaro-alsa
-manjaro-application-utility
-manjaro-asian-input-support-fcitx
-manjaro-browser-settings
-manjaro-gstreamer
-manjaro-hello
-manjaro-kde-settings
-manjaro-modem
-manjaro-pipewire
-manjaro-printer
-manjaro-release
-manjaro-settings-manager-kcm
-manjaro-settings-manager-knotifier
-manjaro-system
-manjaro-zsh-config
-mdadm
-memtest86+
-memtest86+-efi
-mesa-utils
-meson
-mhwd
-mhwd-db
-milou
-mkinitcpio-openswap
-modemmanager
-mtpfs
-mutter
-nano
-nano-syntax-highlighting
-neofetch
-neovim
-net-tools
-networkmanager
-networkmanager-l2tp
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-nfs-utils
-noto-fonts
-noto-fonts-emoji
-npm
-nss-mdns
-ntfs-3g
-ntp
-numlockx
-obs-studio
-okular
-openresolv
-openssh
-os-prober
-packagekit-qt6
-pamac-cli
-pamac-gtk3
-pamac-tray-icon-plasma
-pantheon-camera
-perl
-perl-file-mimeinfo
-phonon-qt6-vlc
-plasma-browser-integration
-plasma-desktop
-plasma-nm
-plasma-pa
-plasma-systemmonitor
-plasma-thunderbolt
-plasma-workspace
-plasma-workspace-wallpapers
-playerctl
-plymouth
-plymouth-kcm
-plymouth-theme-manjaro
-poppler-data
-power-profiles-daemon
-powerdevil
-powertop
-print-manager
-putty
-python-jinja
-python-markdown
-python-pillow
-python-pip
-python-pygments
-python-pyqt5
-python-pysmbc
-python-pytest
-python-reportlab
-python-typogrify
-qt6-imageformats
-qt6-virtualkeyboard
-reiserfsprogs
-ripgrep
-rsync
-rust
-s-nail
-samba
-sddm
-sddm-breath-theme
-sddm-kcm
-skanlite
-sof-firmware
-spectacle
-spectre-meltdown-checker
-sshfs
-stow
-sudo
-sysfsutils
-system-config-printer
-systemd
-systemsettings
-terminus-font
-texinfo
-timeshift
-timeshift-autosnap-manjaro
-ttf-dejavu
-ttf-droid
-ttf-inconsolata
-ttf-indic-otf
-ttf-liberation
-udiskie
-udisks2
-unarchiver
-unzip
-update-grub
-usb_modeswitch
-usbutils
-vi
-vlc
-wechat
-wget
-which
-wireless-regdb
-wpa_supplicant
-xclip
-xdg-desktop-portal-kde
-xdg-user-dirs
-xdg-utils
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-libinput
-xf86-input-void
-xfsprogs
-xorg-mkfontscale
-xorg-server
-xorg-twm
-xorg-xinit
-xorg-xkill
-xorg-xrandr
-yakuake
-yay
-yazi
+accerciser 3.46.2-3
+acpi 1.7-4
+acpid 2.0.34-2
+adobe-source-han-sans-cn-fonts 2.005-1
+adobe-source-han-sans-jp-fonts 2.005-1
+adobe-source-han-sans-kr-fonts 2.005-1
+adobe-source-sans-fonts 3.052-2
+alacarte 1:3.56.0-1
+alacritty 0.15.1-1
+alsa-firmware 1.2.4-4
+alsa-utils 1.2.14-1
+ark 25.04.3-1
+arm-none-eabi-gcc 14.2.0-1
+audiocd-kio 25.04.3-1
+avahi 1:0.8+r194+g3f79789-3
+b43-fwcutter 019-6
+baobab 48.0-3
+base 3-3
+base-devel 1-3
+bash-completion 2.16.0-1
+bat 0.25.0-4
+bear 3.1.6-3
+bluedevil 1:6.3.6-1
+breeze-gtk 6.3.6-1
+bsdmainutils 12.1.8-2
+btrfs-progs 6.15-1
+bustle 0.11.0-3
+bzip2 1.0.8-6
+cabal-install 3.8.1.0-45
+callaudiod 0.1.10-2
+cambalache 0.94.1-2
+cflow 1.7-5
+check 0.15.2-3
+cheese 44.1-3
+chromium 138.0.7204.157-1
+cloc 2.04-1
+cmake 4.0.3-1
+coreutils 9.7-1
+cowsay 3.8.4-1
+cppcheck 2.17.1-3
+cpupower 6.15-1
+cronie 1.7.2-1
+cryptsetup 2.8.0-1
+dconf-editor 45.0.1-3
+devhelp-docs 43.0-3
+device-mapper 2.03.33-1
+dhclient 4.4.3.P1-4
+dhcpcd 10.2.4-1
+dialog 1:1.3_20250116-1
+diffutils 3.12-2
+displaylink 6.1-1
+dmidecode 3.6-1
+dmraid 1.0.0.rc16.3-15
+dnsmasq 2.91-1
+dolphin 25.04.3-1
+dolphin-plugins 25.04.3-1
+dosfstools 4.2-5
+doxygen 1.14.0-1
+e2fsprogs 1.47.3-1
+ecryptfs-utils 111-9
+efibootmgr 18-3
+elisa 25.04.3-3
+endeavour 43.0-5
+eog 47.0-1
+epiphany 48.5-1
+evdi 1.14.10-1
+evince 48.1-1
+evolution 3.56.2-1
+exfat-utils 1.4.0-4
+eyedropper 2.1.0-1
+f2fs-tools 1.16.0-3
+fastfetch 2.47.0-1
+fcgi 2.4.6-1
+fd 10.2.0-1
+feedbackd 0.8.3-1
+ffmpeg 2:7.1.1-4
+ffmpegthumbs 25.04.3-1
+file-roller 44.5-1
+filelight 25.04.3-1
+firefox 140.0.4-1
+five-or-more 48.1-1
+four-in-a-row 3.38.1-5
+foxitreader 2.4.5.0727-1
+freeoffice 2024.1224-1
+fwupd 2.0.12-1
+fzf 0.64.0-1
+gdb 16.3-1
+gdm 48.0-2
+geary 1:46.0-5
+gedit 48.2-1
+ghc 9.4.8-1
+ghex 46.2-2
+ghostty-git r8955.a3837a1e-1
+gi-docgen 2025.4-1
+gimp 3.0.4-3
+gitg 2:44-8
+glade 3.40.0+r31+g1b15f940-2
+glib2-devel 2.84.3-1
+glib2-docs 2.84.3-1
+glibc-locales 2.41+r48+g5cb575ca9a3d-1
+gnome-2048 3.38.2-4
+gnome-backgrounds 48.2.1-1
+gnome-boxes 48.0-4
+gnome-builder 48.2-1
+gnome-calculator 48.1-2
+gnome-calendar 48.1-1
+gnome-characters 48.0-1
+gnome-chess 48.0-2
+gnome-clocks 48.0-1
+gnome-color-manager 3.36.2-1
+gnome-common 3.18.0-5
+gnome-connections 48.0-6
+gnome-console 48.0.1-1
+gnome-contacts 48.0-1
+gnome-control-center 48.3-1
+gnome-devel-docs 40.3-2
+gnome-dictionary 40.0-4
+gnome-disk-utility 46.1-2
+gnome-font-viewer 48.0-1
+gnome-games 40.0-8
+gnome-keyring 1:48.0-1
+gnome-klotski 3.38.2-3
+gnome-logs 45.0-2
+gnome-mahjongg 48.1-1
+gnome-maps 48.4-1
+gnome-menus 3.36.0-3
+gnome-mines 48.1-1
+gnome-multi-writer 3.35.90-3
+gnome-music 1:48.0-1
+gnome-nibbles 4.2.2-1
+gnome-notes 40.1-9
+gnome-photos 1:44.0-4
+gnome-recipes 2.0.4-12
+gnome-remote-desktop 48.1-1
+gnome-robots 41.2-2
+gnome-session 48.0-1
+gnome-settings-daemon 48.1-1
+gnome-shell 1:48.3-1
+gnome-shell-extensions 48.3-1
+gnome-software 48.3-1
+gnome-sound-recorder 42.0-3
+gnome-sudoku 48.1-2
+gnome-system-monitor 48.1-1
+gnome-taquin 3.38.1+r43+g33ad61e-1
+gnome-terminal 3.56.2-1
+gnome-tetravex 3.38.2-3
+gnome-text-editor 48.3-1
+gnome-themes-extra 3.28+r6+g45b1d457-2
+gnome-tour 48.1-1
+gnome-tweaks 46.1-2
+gnome-user-docs 48.2-1
+gnome-user-share 48.1-1
+gnome-weather 48.0-2
+gob2 2.0.20-3
+google-chrome 138.0.7204.157-1
+gource 0.54-6
+gperf 3.1-5
+grilo-plugins 1:0.3.18-1
+grub 2:2.12.r292.g73d1c959-1
+grub-btrfs 4.13-2
+grub-theme-manjaro 20.2-16
+gst-libav 1.26.3-2
+gst-plugins-bad 1.26.3-2
+gst-plugins-base 1.26.3-2
+gst-plugins-good 1.26.3-2
+gst-plugins-ugly 1.26.3-2
+gtk-doc 1.34.0-3
+gtk3 1:3.24.49-2
+gtksourceview4 4.8.4-2
+gtkspell3 3.0.10-3
+gvfs-afc 1.57.2-4
+gvfs-dnssd 1.57.2-4
+gvfs-goa 1.57.2-4
+gvfs-google 1.57.2-4
+gvfs-gphoto2 1.57.2-4
+gvfs-mtp 1.57.2-4
+gvfs-nfs 1.57.2-4
+gvfs-onedrive 1.57.2-4
+gvfs-smb 1.57.2-4
+gvfs-wsdd 1.57.2-4
+gwenview 25.04.3-1
+hitori 44.0-3
+htop 3.4.1-1
+i3-wm 4.24-1
+iagno 3.38.1+r125+ge144444-1
+inetutils 2.6-1
+intel-ucode 20250512-1
+inxi 3.3.38.1-1
+jfsutils 1.1.15-9
+kaccounts-providers 25.04.3-1
+kamera 25.04.3-1
+kate 25.04.3-1
+kcalc 25.04.3-1
+kde-gtk-config 6.3.6-1
+kdeconnect 25.04.3-1
+kdegraphics-thumbnailers 25.04.3-1
+kdenetwork-filesharing 25.04.3-1
+kdeplasma-addons 6.3.6-1
+kea 3.0.0-6
+keditbookmarks 25.04.3-1
+key-mon 1.20-3
+kfind 25.04.3-1
+kgamma 6.3.6-1
+khelpcenter 25.04.3-1
+khotkeys 5.27.11-1
+kimageformats5 5.116.0-3
+kinfocenter 6.3.6-1
+kinit 5.116.0-1
+kio-extras 25.04.3-1
+kitty 0.42.1-1
+kmenuedit 6.3.6-1
+kommit 1.7.1-2
+konsole 25.04.3-1
+kscreen 6.3.6-1
+kscreenlocker 6.3.6-1
+ksshaskpass 6.3.6-1
+ksystemlog 25.04.3-1
+kwallet-pam 6.3.6-1
+kwalletmanager 25.04.3-1
+kwayland-integration 6.3.6-1
+kwin 6.3.6-1
+kwrited 6.3.6-1
+lazygit 0.53.0-1
+less 1:668-1
+lib32-libcanberra 1:0.30+r2+gc0620e4-3
+lib32-libva-intel-driver 2.4.1-2
+lib32-libva-vdpau-driver 0.7.4-8
+lib32-mesa-utils 9.0.0-4
+lib32-vulkan-intel 1:25.1.5-1
+lib32-vulkan-radeon 1:25.1.5-1
+libcanberra 1:0.30+r2+gc0620e4-4
+libcryptui 1:3.12.2+r71+ged4f890e-2
+libdvdcss 1.4.3-2
+libgpiod 2.1.2-2
+libmodbus 3.1.11-3
+libpamac-flatpak-plugin 11.7.3-5
+libreoffice-fresh 25.2.4-3
+libselinux 3.8-1
+libva-intel-driver 2.4.1-5
+libva-vdpau-driver 0.7.4-7
+libwebsockets 4.3.5-1
+lightsoff 48.1-1
+linux515-headers 5.15.188-1
+linux66 6.6.98-1
+linux66-headers 6.6.98-1
+log4c 1.2.4-4
+logrotate 3.22.0-1
+lolcat 100.0.1-5
+loupe 48.1-1
+lsd 1.1.5-1
+luarocks 3.12.2-1
+lvm2 2.03.33-1
+malcontent 0.13.0-1
+man-db 2.13.1-1
+man-pages 6.14-1
+manjaro-alsa 20221002-1
+manjaro-application-utility 1.4.1-2
+manjaro-browser-settings 20231111-1
+manjaro-downgrade 2.2-2
+manjaro-gstreamer 20221002-1
+manjaro-hello 0.8.1-2
+manjaro-kde-settings 20241119-1
+manjaro-modem 20240312-1
+manjaro-pipewire 20231009-1
+manjaro-printer 20240827-1
+manjaro-release 25.0.6-1
+manjaro-settings-manager-kcm 0.5.7-21
+manjaro-settings-manager-knotifier 0.5.8-5
+manjaro-system 20230401-1
+manjaro-zsh-config 0.26-2
+masterpdfeditor 5.9.89-3
+mdadm 4.4-1
+memtest86+ 7.20-2
+memtest86+-efi 7.20-2
+mesa-utils 9.0.0-7
+mhwd 0.6.6-4
+mhwd-db 20250113-1
+milou 6.3.6-1
+mingw-w64-binutils 2.44-2
+mingw-w64-crt 13.0.0-1
+mingw-w64-gcc 15.1.0-2
+mingw-w64-headers 13.0.0-1
+mingw-w64-winpthreads 13.0.0-1
+minicom 2.10-1
+mkinitcpio-openswap 0.1.0-4
+mobile-broadband-provider-info 20250613-1
+modemmanager 1.24.0-2
+mtpfs 1.1-5
+mutt 2.2.14-2
+nano 8.5-1
+nano-syntax-highlighting 2022.11.02.r102.gbb94603-1
+nautilus 48.3-1
+neofetch 7.1.0-2
+neovide 0.15.0-1
+neovim 0.11.3-1
+net-tools 2.10-3
+networkmanager 1.52.1-1
+networkmanager-l2tp 1.20.20-3
+networkmanager-openconnect 1.2.10-3
+networkmanager-openvpn 1.12.0-1
+networkmanager-pptp 1.2.12-6
+networkmanager-vpnc 1.4.0-1
+nfs-utils 2.8.3-2
+noto-fonts 1:2025.07.01-1
+noto-fonts-emoji 1:2.048-1
+npm 11.4.2-1
+nss-mdns 0.15.1-2
+ntfs-3g 2022.10.3-2
+ntp 4.2.8.p18-3
+numlockx 1.2-6
+nvm 0.40.3-1
+obs-studio 31.0.4-1
+okular 25.04.3-1
+onlyoffice-bin 8.3.3-1
+openbsd-netcat 1.229_1-1
+openresolv 3.17.0-1
+openssh 10.0p1-3
+orca 48.6-1
+os-prober 1.83-1
+otf-aurulent-nerd 3.4.0-1
+otf-codenewroman-nerd 3.4.0-1
+otf-comicshanns-nerd 3.4.0-1
+otf-commit-mono-nerd 3.4.0-1
+otf-droid-nerd 3.4.0-1
+otf-firamono-nerd 3.4.0-1
+otf-geist-mono-nerd 3.4.0-1
+otf-hasklig-nerd 3.4.0-1
+otf-hermit-nerd 3.4.0-1
+otf-monaspace-nerd 3.4.0-1
+otf-opendyslexic-nerd 3.4.0-1
+otf-overpass-nerd 3.4.0-1
+oxygen-icons 1:6.1.0-2
+oxygen5 6.3.6-1
+packagekit-qt5 1.1.2-1
+pamac-cli 11.7.3-2
+pamac-gtk3 10.7.0-1
+pamac-tray-icon-plasma 0.1.3-3
+papers 48.4-1
+partitionmanager 25.04.3-1
+perl 5.40.2-1
+perl-file-mimeinfo 0.35-2
+perl-string-camelcase 0.04-1
+phonon-qt5-vlc 0.12.0-3
+pika-backup 1:0.7.2-2
+piper 0.8-2
+pitivi 2023.03-9
+plasma-browser-integration 6.3.6-1
+plasma-desktop 6.3.6-1
+plasma-nm 6.3.6-1
+plasma-pa 6.3.6-1
+plasma-simplemenu 1.0.12-1
+plasma-systemmonitor 6.3.6-1
+plasma-thunderbolt 6.3.6-1
+plasma-workspace 6.3.6-1
+plasma-workspace-wallpapers 6.3.6-1
+plymouth 24.004.60-12
+plymouth-kcm 6.3.6-1
+plymouth-theme-manjaro 2.2-1
+polari 46.0-3
+poppler-data 0.4.12-2
+postman-bin 11.23.3-1
+power-profiles-daemon 0.30-1
+powerdevil 6.3.6-1
+powertop 2.15-2
+print-manager 1:6.3.6-2
+prospect-mail-bin 0.5.4-1
+putty 0.83-1
+python-dbusmock 0.35.0-1
+python-evdev 1.9.0-1
+python-jinja 1:3.1.6-1
+python-markdown 3.8.2-1
+python-pillow 11.3.0-1
+python-pip 25.1.1-1
+python-pyqt5 5.15.11-2
+python-pyserial 3.5-7
+python-pysmbc 1.0.25.1-4
+python-pytest 1:8.4.1-1
+python-reportlab 4.2.2-5
+python-typogrify 2.1.0-1
+python-websockets 15.0.1-1
+qt5-imageformats 5.15.17+kde+r2-1
+qt5-virtualkeyboard 5.15.17-1
+quadrapassel 40.2-4
+ragel 6.10-4
+ranger 1.9.4-4
+rbenv 1.3.2-2
+reiserfsprogs 3.6.27-5
+repo 2.54-1
+ripgrep 14.1.1-1
+rsync 3.4.1-2
+ruby-build 20250610-1
+ruby-ceedling 0.31.1-1
+rust-analyzer 20250714-1
+rustup 1.28.2-3
+rygel 1:0.44.2-3
+s-nail 14.9.25-1
+samba 2:4.22.3-1
+sassc 3.6.2-5
+screen 5.0.1-3
+screenkey 1.5-5
+sddm 0.21.0-6
+sddm-breath-theme 24.0.0-4
+sddm-kcm 6.3.6-1
+seahorse 1:47.0.1-3
+showmethekey 1.17.0-1
+simple-scan 48.1-1
+skanlite 25.04.3-1
+snapd 2.70-1
+snapshot 48.0.1-1
+sof-firmware 2025.05-1
+solanum 6.0.0-1
+spectacle 1:6.3.6-1
+spectre-meltdown-checker 0.46+26+gbd0c7c9-1
+splint 3.1.2.git20180129-3
+sshfs 3.7.3-3
+stack 2.9.1-181
+starship 1.23.0-1
+stm32cubemx 6.13.0-1
+stow 2.4.1-1
+sudo 1.9.17.p1-1
+sushi 46.0-2
+sway 1:1.11-1
+swell-foop 48.1-1
+swig 4.3.1-1
+symbolic-preview 0.0.9-7
+sysfsutils 2.1.1-2
+sysprof 48.0-5
+system-config-printer 1.5.18-5
+systemctl-tui 0.4.0-1
+systemd 257.7-1
+systemsettings 6.3.6-1
+tabby-bin 1.0.216-1
+tali 40.9-4
+tecla 48.0.2-1
+tectonic 0.15.0-3
+terminus-font 4.49.1-8
+termscp 0.18.0-1
+texinfo 7.2-1
+timeshift 24.06.6-1
+timeshift-autosnap-manjaro 0.10-1
+totem 43.2-1
+tree 2.2.1-1
+ttf-0xproto-nerd 3.4.0-1
+ttf-3270-nerd 3.4.0-1
+ttf-agave-nerd 3.4.0-1
+ttf-anonymouspro-nerd 3.4.0-1
+ttf-arimo-nerd 3.4.0-1
+ttf-bigblueterminal-nerd 3.4.0-1
+ttf-bitstream-vera-mono-nerd 3.4.0-1
+ttf-cascadia-code-nerd 3.4.0-1
+ttf-cascadia-mono-nerd 3.4.0-1
+ttf-cousine-nerd 3.4.0-1
+ttf-d2coding-nerd 3.4.0-1
+ttf-daddytime-mono-nerd 3.4.0-1
+ttf-dejavu 2.37+18+g9b5d1b2f-7
+ttf-dejavu-nerd 3.4.0-1
+ttf-droid 20121017-11
+ttf-envycoder-nerd 3.4.0-1
+ttf-fantasque-nerd 3.4.0-1
+ttf-firacode-nerd 3.4.0-1
+ttf-go-nerd 3.4.0-1
+ttf-hack-nerd 3.4.0-1
+ttf-heavydata-nerd 3.4.0-1
+ttf-iawriter-nerd 3.4.0-1
+ttf-ibmplex-mono-nerd 3.4.0-1
+ttf-inconsolata 1:3.000-4
+ttf-inconsolata-go-nerd 3.4.0-1
+ttf-inconsolata-lgc-nerd 3.4.0-1
+ttf-inconsolata-nerd 3.4.0-1
+ttf-indic-otf 0.2-12
+ttf-intone-nerd 3.4.0-1
+ttf-iosevka-nerd 3.4.0-1
+ttf-iosevkaterm-nerd 3.4.0-1
+ttf-jetbrains-mono-nerd 3.4.0-1
+ttf-lekton-nerd 3.4.0-1
+ttf-liberation 2.1.5-2
+ttf-liberation-mono-nerd 3.4.0-1
+ttf-lilex-nerd 3.4.0-1
+ttf-martian-mono-nerd 3.4.0-1
+ttf-meslo-nerd 3.4.0-1
+ttf-monofur-nerd 3.4.0-1
+ttf-monoid-nerd 3.4.0-1
+ttf-mononoki-nerd 3.4.0-1
+ttf-mplus-nerd 3.4.0-1
+ttf-nerd-fonts-symbols 3.4.0-1
+ttf-nerd-fonts-symbols-mono 3.4.0-1
+ttf-noto-nerd 3.4.0-1
+ttf-profont-nerd 3.4.0-1
+ttf-proggyclean-nerd 3.4.0-1
+ttf-roboto-mono-nerd 3.4.0-1
+ttf-sharetech-mono-nerd 3.4.0-1
+ttf-sourcecodepro-nerd 3.4.0-1
+ttf-space-mono-nerd 3.4.0-1
+ttf-terminus-nerd 3.4.0-1
+ttf-tinos-nerd 3.4.0-1
+ttf-ubuntu-mono-nerd 3.4.0-1
+ttf-ubuntu-nerd 3.4.0-1
+ttf-victor-mono-nerd 3.4.0-1
+udiskie 2.5.7-1
+udisks2 2.10.1-6
+umockdev 0.19.1-1
+unarchiver 1.10.8-5
+unzip 6.0-22
+update-grub 2:2.12.r292.g73d1c959-1
+usb_modeswitch 2.6.2-1
+usbip 6.15-1
+usbutils 018-1
+vala 0.56.18-4
+valgrind 3.25.1-1
+vi 1:070224-6
+vim 9.1.1497-1
+visual-studio-code-bin 1.96.2-1
+vlc 3.0.21-26
+vulkan-intel 1:25.1.5-1
+vulkan-radeon 1:25.1.5-1
+warp 0.9.2-1
+wayland-protocols 1.45-1
+websocat 1.14.0-1
+wget 1.25.0-2
+which 2.23-1
+wine 10.12-1
+wireless-regdb 2025.07.10-1
+wireshark-qt 4.4.7-1
+wl-clipboard 1:2.2.1-3
+wpa_supplicant 2:2.11-3
+wshowkeys-git r5.e8bfc78-2
+xdg-desktop-portal-gnome 48.0-2
+xdg-desktop-portal-kde 6.3.6-1
+xdg-user-dirs 0.18-2
+xdg-user-dirs-gtk 0.14-1
+xdg-utils 1.2.1-1
+xf86-input-elographics 1.4.4-1
+xf86-input-evdev 2.11.0-1
+xf86-input-libinput 1.5.0-1
+xf86-input-void 1.4.2-2
+xf86-video-amdgpu 23.0.0-2
+xf86-video-ati 1:22.0.0-2
+xf86-video-intel 1:2.99.917+939+g4a64400e-1
+xf86-video-nouveau 1.0.18-1
+xfsprogs 6.15.0-1
+xorg-mkfontscale 1.2.3-1
+xorg-server 21.1.18-2
+xorg-twm 1.0.13.1-1
+xorg-xinit 1.4.4-1
+xorg-xkill 1.0.6-2
+xorg-xrandr 1.5.3-1
+yakuake 25.04.3-1
+yay 12.5.0-1
+yazi 25.5.31-1
+yelp 42.3-1
+zed-git 0.168.2.r108.ga827f54-1
+zip 3.0-11
+zlog 1.2.16-2
+zoxide 0.9.8-2
