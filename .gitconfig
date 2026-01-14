@@ -7,3 +7,5 @@
 	email = jialu.zhou@viperinnovations.com
 [color]
     ui = auto
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
