@@ -125,5 +125,5 @@ export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Vivado
-export XILINX_VIVADO=/tools/Xilinx/2025.1/Vivado/bin
+export XILINX_VIVADO=/Xilinx/2025.2/Vivado/bin
 export PATH=$XILINX_VIVADO:$PATH
