@@ -130,3 +130,6 @@ export PATH="$HOME/.local/bin:$PATH"
 # Vivado
 export XILINX_VIVADO=/Xilinx/2025.2/Vivado/bin
 export PATH=$XILINX_VIVADO:$PATH
+
+eval $(ssh-agent)
+ssh-add ~/.ssh/id_ed25519
