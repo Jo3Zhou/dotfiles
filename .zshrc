@@ -1,5 +1,7 @@
 # ~/.zshrc
 
+ssh-add ~/.ssh/id_ed25519
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -131,5 +133,3 @@ export PATH="$HOME/.local/bin:$PATH"
 export XILINX_VIVADO=/Xilinx/2025.2/Vivado/bin
 export PATH=$XILINX_VIVADO:$PATH
 
-eval $(ssh-agent)
-ssh-add ~/.ssh/id_ed25519
