@@ -119,7 +119,6 @@ alias help='man'
 alias quit='exit'
 
 # Shell integrations
-eval "$(dircolors -b $HOME/.dircolors)" > /dev/null
 eval "$(fzf --zsh)"
 
 export NVM_DIR="$HOME/.config/nvm"
@@ -130,6 +129,7 @@ export NVM_DIR="$HOME/.config/nvm"
 export PATH="$HOME/.local/bin:$PATH"
 
 # Vivado
-export XILINX_VIVADO=/Xilinx/2025.2/Vivado/bin
-export PATH=$XILINX_VIVADO:$PATH
+# export XILINX_VIVADO=/Xilinx/2025.2/Vivado/bin
+# export PATH=$XILINX_VIVADO:$PATH
 
+export PATH="$HOME/.cargo/env"

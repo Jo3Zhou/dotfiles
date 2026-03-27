@@ -1,0 +1,29 @@
+# Font
+font-family = 0xProto Nerd Font
+font-size = 14
+
+# Shell
+command = /bin/zsh
+
+# Keybindings
+keybind = alt+1=goto_tab:1
+keybind = alt+2=goto_tab:2
+keybind = alt+3=goto_tab:3
+keybind = alt+4=goto_tab:4
+keybind = alt+5=goto_tab:5
+keybind = alt+6=goto_tab:6
+keybind = alt+7=goto_tab:7
+keybind = alt+8=goto_tab:8
+keybind = alt+9=goto_tab:9
+
+# Color scheme (Catppuccin Mocha)
+theme = Catppuccin Mocha
+
+# Terminal bell
+# audio-bell = true
+
+# Window
+# macos-titlebar-style = hidden
+background-opacity = 0.9
+background-blur-radius = 20
+window-save-state = always
