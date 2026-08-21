@@ -100,7 +100,6 @@ alias mv='mv -iv'
 alias ln='ln -iv'
 alias mkdir='mkdir -v'
 
-alias ra='ranger'
 alias lg='lazygit'
 alias v='nvim'
 alias g='git'
@@ -128,6 +127,9 @@ export NVM_DIR="$HOME/.config/nvm"
 
 # For claude
 export PATH="$HOME/.local/bin:$PATH"
+
+# Zoxide
+eval "$(zoxide init zsh)"
 
 # Vivado
 export XILINX_VIVADO=/Xilinx/2025.2/Vivado/bin
