@@ -1,9 +1,3 @@
-# Font
-# font_family      family="0xProto Nerd Font"
-# bold_font        auto
-# italic_font      auto
-# bold_italic_font auto
-
 font_size 11.0
 
 # Keymap
@@ -45,8 +39,10 @@ clipboard_control write-clipboard write-primary
 
 
 # BEGIN_KITTY_FONTS
-font_family      family='0xProto Nerd Font' postscript_name=0xProtoNF
+font_family      family="Adwaita Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
 # END_KITTY_FONTS
+
+hide_window_decorations no
