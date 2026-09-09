@@ -131,6 +131,6 @@ export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
 
 # Vivado
-export XILINX_VIVADO=/Xilinx/2025.2/Vivado/bin
+export XILINX_VIVADO=/opt/Xilinx/2026.1/Vivado/bin
 export PATH=$XILINX_VIVADO:$PATH
 
