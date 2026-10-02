@@ -108,7 +108,7 @@ alias quit='exit'
 # Shell integrations
 # ---------------------------------------------------------------------------
 eval "$(fzf --zsh)"
-eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh --cmd cd)"
 
 # ---------------------------------------------------------------------------
 # Env / PATH
