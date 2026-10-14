@@ -1,3 +1,27 @@
-.config/github-copilot/
-.local/
+# --- Secrets & machine-local state ---
 .ssh/
+.local/
+.config/github-copilot/
+*.db
+*.db-shm
+*.db-wal
+
+# --- App data that gets written into stowed dirs (not config) ---
+.config/goa-1.0/
+.config/gtk-4.0/
+.config/libreoffice/
+.config/mozilla/
+.config/nautilus/
+
+# --- Backups, swap & temp files ---
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+.#*
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+.directory
