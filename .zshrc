@@ -1,6 +1,16 @@
 # ~/.zshrc
 
-ssh-add ~/.ssh/id_ed25519 2>/dev/null
+[[ -o interactive ]] || return
+
+if [[ "$(uname -s)" == "Darwin" ]]; then
+  if [[ -x /opt/homebrew/bin/brew ]]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+  elif [[ -x /usr/local/bin/brew ]]; then
+    eval "$(/usr/local/bin/brew shellenv)"
+  fi
+fi
+
+[[ -f "$HOME/.ssh/id_ed25519" ]] && ssh-add "$HOME/.ssh/id_ed25519" 2>/dev/null
 
 # ---------------------------------------------------------------------------
 # Zinit
@@ -27,7 +37,13 @@ zinit snippet OMZP::command-not-found
 # ---------------------------------------------------------------------------
 # Completion
 # ---------------------------------------------------------------------------
-[[ -r "$HOME/.dircolors" ]] && eval "$(dircolors -b "$HOME/.dircolors")"
+if [[ -r "$HOME/.dircolors" ]]; then
+  if (( $+commands[dircolors] )); then
+    eval "$(dircolors -b "$HOME/.dircolors")"
+  elif (( $+commands[gdircolors] )); then
+    eval "$(gdircolors -b "$HOME/.dircolors")"
+  fi
+fi
 
 autoload -Uz compinit && compinit
 zinit cdreplay -q
@@ -48,15 +64,21 @@ zinit ice wait lucid
 zinit light zdharma-continuum/fast-syntax-highlighting
 
 # ---------------------------------------------------------------------------
-# Prompt: Oh My Posh (binary managed by zinit)
-#   update:   zinit update JanDeDobbeleer/oh-my-posh
-#   arm64:    use posh-linux-arm64 in bpick/mv
+# Prompt: Oh My Posh
 # ---------------------------------------------------------------------------
-zinit ice as"program" from"gh-r" \
-  bpick"posh-linux-amd64" mv"posh-linux-amd64 -> oh-my-posh" \
-  atclone"chmod +x oh-my-posh" atpull"%atclone" \
-  atload'eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/config.json)"'
-zinit light JanDeDobbeleer/oh-my-posh
+if [[ "$(uname -s)" == "Darwin" ]]; then
+  if [[ -x /opt/homebrew/bin/oh-my-posh ]]; then
+    eval "$(/opt/homebrew/bin/oh-my-posh init zsh --config "$HOME/.config/ohmyposh/config.json")"
+  elif [[ -x /usr/local/bin/oh-my-posh ]]; then
+    eval "$(/usr/local/bin/oh-my-posh init zsh --config "$HOME/.config/ohmyposh/config.json")"
+  fi
+else
+  zinit ice as"program" from"gh-r" \
+    bpick"posh-linux-amd64" mv"posh-linux-amd64 -> oh-my-posh" \
+    atclone"chmod +x oh-my-posh" atpull"%atclone" \
+    atload'eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/config.json)"'
+  zinit light JanDeDobbeleer/oh-my-posh
+fi
 
 # ---------------------------------------------------------------------------
 # History
@@ -107,8 +129,8 @@ alias quit='exit'
 # ---------------------------------------------------------------------------
 # Shell integrations
 # ---------------------------------------------------------------------------
-eval "$(fzf --zsh)"
-eval "$(zoxide init zsh --cmd cd)"
+(( $+commands[fzf] )) && eval "$(fzf --zsh)"
+(( $+commands[zoxide] )) && eval "$(zoxide init zsh --cmd cd)"
 
 # ---------------------------------------------------------------------------
 # Env / PATH
@@ -118,6 +140,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export PATH="$HOME/.local/bin:$PATH:$HOME/.cargo/bin"
 
 # Vivado
-export XILINX_VIVADO=/opt/Xilinx/2026.1/Vivado
-export PATH="$XILINX_VIVADO/bin:$PATH"
-
+if [[ -d /opt/Xilinx/2026.1/Vivado ]]; then
+  export XILINX_VIVADO=/opt/Xilinx/2026.1/Vivado
+  export PATH="$XILINX_VIVADO/bin:$PATH"
+fi

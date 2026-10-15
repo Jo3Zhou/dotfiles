@@ -1,0 +1,20 @@
+# Command-line tools required by the shared shell and editor configuration.
+brew "bat"
+brew "coreutils"
+brew "cowsay"
+brew "fastfetch"
+brew "fd"
+brew "fzf"
+brew "git"
+brew "gnu-sed"
+brew "lazygit"
+brew "lsd"
+brew "neovim"
+brew "oh-my-posh"
+brew "ripgrep"
+brew "starship"
+brew "stow"
+brew "zoxide"
+
+# Terminal used by the checked-in Kitty configuration.
+cask "kitty"
